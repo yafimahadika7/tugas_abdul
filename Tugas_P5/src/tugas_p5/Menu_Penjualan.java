@@ -98,7 +98,7 @@ public class Menu_Penjualan extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Yafi Mahadika");
+        setTitle("ABDUL ROCHMAN");
 
         jLabel1.setText("Nama Pemesan");
 

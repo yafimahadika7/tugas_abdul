@@ -29,9 +29,10 @@ public class Form_Utama extends javax.swing.JFrame {
         pilih = new javax.swing.JMenu();
         penjualan_rumah = new javax.swing.JMenuItem();
         tampil_data = new javax.swing.JMenuItem();
+        cari_data = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Yafi Mahadika");
+        setTitle("ABDUL ROCHMAN");
 
         jMenu1.setText("File");
 
@@ -70,6 +71,14 @@ public class Form_Utama extends javax.swing.JFrame {
             }
         });
         pilih.add(tampil_data);
+
+        cari_data.setText("Cari Data");
+        cari_data.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cari_dataActionPerformed(evt);
+            }
+        });
+        pilih.add(cari_data);
 
         jMenuBar1.add(pilih);
 
@@ -111,6 +120,14 @@ public class Form_Utama extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_exitActionPerformed
 
+    private void cari_dataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cari_dataActionPerformed
+        // TODO add your handling code here:
+        Cari_Data mp = new Cari_Data();
+        mp.setVisible(true);
+        
+        this.dispose();
+    }//GEN-LAST:event_cari_dataActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -147,6 +164,7 @@ public class Form_Utama extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem cari_data;
     private javax.swing.JMenuItem exit;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;

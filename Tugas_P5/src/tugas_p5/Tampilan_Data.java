@@ -71,7 +71,7 @@ public class Tampilan_Data extends javax.swing.JFrame {
         total = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Yafi Mahadika");
+        setTitle("ABDUL ROCHMAN");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
